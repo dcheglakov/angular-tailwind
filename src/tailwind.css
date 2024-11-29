@@ -1,0 +1,21 @@
+@import "./styles/colors/blue.css";
+@import "./styles/colors/gray.css";
+@import "./styles/colors/red.css";
+@import "./styles/colors/green.css";
+@import "./styles/colors/yellow.css";
+@import "./styles/colors/cyan.css";
+@import "./styles/colors/blue-dark.css";
+@import "./styles/colors/gray-dark.css";
+@import "./styles/colors/red-dark.css";
+@import "./styles/colors/green-dark.css";
+@import "./styles/colors/yellow-dark.css";
+@import "./styles/colors/cyan-dark.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./styles/components/twc-button.css";
+@import "./styles/components/twc-heading.css";
+@import "./styles/components/twc-badge.css";
+@import "./styles/components/twc-grid.css";
