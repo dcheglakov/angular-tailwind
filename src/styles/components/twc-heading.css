@@ -4,29 +4,29 @@
 .twc-h4,
 .twc-h5,
 .twc-h6 {
-  @apply tw-text-gray-12 tw-m-0 tw-p-0;
+  @apply text-gray-12 m-0 p-0;
 }
 
 .twc-h1 {
-  @apply tw-text-3xl md:tw-text-4xl;
+  @apply text-3xl md:text-4xl;
 }
 
 .twc-h2 {
-  @apply tw-text-2xl md:tw-text-3xl;
+  @apply text-2xl md:text-3xl;
 }
 
 .twc-h3 {
-  @apply tw-text-xl md:tw-text-2xl;
+  @apply text-xl md:text-2xl;
 }
 
 .twc-h4 {
-  @apply tw-text-xl;
+  @apply text-xl;
 }
 
 .twc-h5 {
-  @apply tw-text-lg;
+  @apply text-lg;
 }
 
 .twc-h6 {
-  @apply tw-text-base;
+  @apply text-base;
 }

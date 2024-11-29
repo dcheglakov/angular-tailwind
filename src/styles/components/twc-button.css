@@ -1,124 +1,124 @@
 .twc-btn {
-  @apply tw-inline-flex tw-items-center tw-gap-2 tw-px-3 tw-py-1.5 tw-rounded-lg;
-  @apply tw-text-base tw-text-nowrap tw-truncate;
-  @apply hover:tw-no-underline;
-  @apply focus:tw-outline-none focus-visible:tw-no-underline;
+  @apply inline-flex items-center gap-2 px-3 py-1.5 rounded-lg;
+  @apply text-base text-nowrap truncate;
+  @apply hover:no-underline;
+  @apply focus:outline-none focus-visible:no-underline;
 }
 
 .twc-btn[data-size="sm"] {
-  @apply tw-px-2 tw-py-1 tw-text-sm;
+  @apply px-2 py-1 text-sm;
 }
 
 .twc-btn[data-size="lg"] {
-  @apply tw-px-5 tw-py-2.5 tw-text-xl;
+  @apply px-5 py-2.5 text-xl;
 }
 
 .twc-btn[data-pill="true"] {
-  @apply tw-rounded-full tw-px-4;
+  @apply rounded-full px-4;
 }
 
 .twc-btn[data-pill="true"][data-size="sm"] {
-  @apply tw-px-3;
+  @apply px-3;
 }
 
 .twc-btn[data-pill="true"][data-size="lg"] {
-  @apply tw-px-6;
+  @apply px-6;
 }
 
 .twc-btn-primary,
 .twc-btn-outline-primary,
 .twc-btn-link {
-  @apply hover:tw-text-brand-contrast;
-  @apply focus-visible:tw-outline-brand-7 focus-visible:tw-text-brand-contrast;
+  @apply hover:text-brand-contrast;
+  @apply focus-visible:outline-brand-7 focus-visible:text-brand-contrast;
 }
 
 .twc-btn-secondary,
 .twc-btn-outline-secondary {
-  @apply focus-visible:tw-outline-gray-7;
+  @apply focus-visible:outline-gray-7;
 }
 
 .twc-btn-success,
 .twc-btn-outline-success {
-  @apply focus-visible:tw-outline-success-7;
+  @apply focus-visible:outline-success-7;
 }
 
 .twc-btn-danger,
 .twc-btn-outline-danger {
-  @apply focus-visible:tw-outline-danger-7;
+  @apply focus-visible:outline-danger-7;
 }
 
 .twc-btn-warning,
 .twc-btn-outline-warning {
-  @apply focus-visible:tw-outline-warning-7;
+  @apply focus-visible:outline-warning-7;
 }
 
 .twc-btn-info,
 .twc-btn-outline-info {
-  @apply focus-visible:tw-outline-info-7;
+  @apply focus-visible:outline-info-7;
 }
 
 .twc-btn-primary {
-  @apply tw-bg-brand-9 tw-text-brand-contrast hover:tw-bg-brand-10;
+  @apply bg-brand-9 text-brand-contrast hover:bg-brand-10;
 }
 
 .twc-btn-secondary {
-  @apply tw-bg-gray-9 tw-text-gray-contrast hover:tw-bg-gray-10;
+  @apply bg-gray-9 text-gray-contrast hover:bg-gray-10;
 }
 
 .twc-btn-success {
-  @apply tw-bg-success-9 tw-text-success-contrast hover:tw-bg-success-10;
+  @apply bg-success-9 text-success-contrast hover:bg-success-10;
 }
 
 .twc-btn-danger {
-  @apply tw-bg-danger-9 tw-text-danger-contrast hover:tw-bg-danger-10;
+  @apply bg-danger-9 text-danger-contrast hover:bg-danger-10;
 }
 
 .twc-btn-warning {
-  @apply tw-bg-warning-9 tw-text-warning-contrast hover:tw-bg-warning-10;
+  @apply bg-warning-9 text-warning-contrast hover:bg-warning-10;
 }
 
 .twc-btn-info {
-  @apply tw-bg-info-9 tw-text-info-contrast hover:tw-bg-info-10;
+  @apply bg-info-9 text-info-contrast hover:bg-info-10;
 }
 
 .twc-btn-outline-primary {
-  @apply tw-bg-transparent tw-text-brand-11 tw-border tw-border-brand-9;
-  @apply hover:tw-text-brand-contrast hover:tw-bg-brand-9;
-  @apply focus-visible:tw-bg-brand-9 focus-visible:tw-text-brand-contrast;
+  @apply bg-transparent text-brand-11 border border-brand-9;
+  @apply hover:text-brand-contrast hover:bg-brand-9;
+  @apply focus-visible:bg-brand-9 focus-visible:text-brand-contrast;
 }
 
 .twc-btn-outline-secondary {
-  @apply tw-bg-transparent tw-text-gray-11 tw-border tw-border-gray-9;
-  @apply hover:tw-text-gray-contrast hover:tw-bg-gray-9;
-  @apply focus-visible:tw-bg-gray-9 focus-visible:tw-text-gray-contrast;
+  @apply bg-transparent text-gray-11 border border-gray-9;
+  @apply hover:text-gray-contrast hover:bg-gray-9;
+  @apply focus-visible:bg-gray-9 focus-visible:text-gray-contrast;
 }
 
 .twc-btn-outline-success {
-  @apply tw-bg-transparent tw-text-success-11 tw-border tw-border-success-9;
-  @apply hover:tw-text-success-contrast hover:tw-bg-success-9;
-  @apply focus-visible:tw-bg-success-9 focus-visible:tw-text-success-contrast;
+  @apply bg-transparent text-success-11 border border-success-9;
+  @apply hover:text-success-contrast hover:bg-success-9;
+  @apply focus-visible:bg-success-9 focus-visible:text-success-contrast;
 }
 
 .twc-btn-outline-danger {
-  @apply tw-bg-transparent tw-text-danger-11 tw-border tw-border-danger-9;
-  @apply hover:tw-text-danger-contrast hover:tw-bg-danger-9;
-  @apply focus-visible:tw-bg-danger-9 focus-visible:tw-text-danger-contrast;
+  @apply bg-transparent text-danger-11 border border-danger-9;
+  @apply hover:text-danger-contrast hover:bg-danger-9;
+  @apply focus-visible:bg-danger-9 focus-visible:text-danger-contrast;
 }
 
 .twc-btn-outline-warning {
-  @apply tw-bg-transparent tw-text-warning-12 tw-border tw-border-warning-9;
-  @apply hover:tw-text-warning-contrast hover:tw-bg-warning-9;
-  @apply focus-visible:tw-bg-warning-9 focus-visible:tw-text-warning-contrast;
+  @apply bg-transparent text-warning-12 border border-warning-9;
+  @apply hover:text-warning-contrast hover:bg-warning-9;
+  @apply focus-visible:bg-warning-9 focus-visible:text-warning-contrast;
 }
 
 .twc-btn-outline-info {
-  @apply tw-bg-transparent tw-text-info-12 tw-border tw-border-info-9;
-  @apply hover:tw-text-info-contrast hover:tw-bg-info-9;
-  @apply focus-visible:tw-bg-info-9 focus-visible:tw-text-info-contrast;
+  @apply bg-transparent text-info-12 border border-info-9;
+  @apply hover:text-info-contrast hover:bg-info-9;
+  @apply focus-visible:bg-info-9 focus-visible:text-info-contrast;
 }
 
 .twc-btn-link {
-  @apply tw-text-brand-11;
-  @apply hover:tw-text-brand-12 hover:tw-bg-brand-3;
-  @apply focus-visible:tw-bg-brand-3 focus-visible:tw-text-brand-12;
+  @apply text-brand-11;
+  @apply hover:text-brand-12 hover:bg-brand-3;
+  @apply focus-visible:bg-brand-3 focus-visible:text-brand-12;
 }

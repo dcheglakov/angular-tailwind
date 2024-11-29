@@ -1,16 +1,16 @@
 <section
   [class.dark]="isDarkMode"
-  class="tw-flex tw-gap-3 tw-flex-col tw-p-4 tw-rounded-lg tw-border tw-border-gray-3 tw-bg-gray-2 tw-overflow-clip"
+  class="flex gap-3 flex-col p-4 rounded-lg border border-gray-3 bg-gray-2 overflow-clip"
 >
-  <header class="tw-flex tw-gap-3 tw-items-center tw-justify-between">
+  <header class="flex gap-3 items-center justify-between">
     <h3 class="twc-h3">{{ title }}</h3>
     <button
-      class="tw-p-2 tw-bg-gray-4 hover:tw-bg-gray-5 tw-rounded-md"
+      class="p-2 bg-gray-4 hover:bg-gray-5 rounded-md"
       (click)="toggleDarkMode()"
     >
       <i-lucide
         [img]="isDarkMode ? MoonIcon : SunIcon"
-        class="tw-text-gray-11"
+        class="text-gray-11"
       ></i-lucide>
     </button>
   </header>
