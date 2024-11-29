@@ -1,27 +1,27 @@
 .twc-badge {
-  @apply tw-inline-flex tw-items-center tw-font-medium tw-gap-1.5 tw-px-2 tw-py-0.5 tw-rounded-md tw-text-sm tw-text-nowrap tw-truncate hover:tw-cursor-default;
+  @apply tw:inline-flex tw:items-center tw:font-medium tw:gap-1.5 tw:px-2 tw:py-0.5 tw:rounded-md tw:text-sm tw:text-nowrap tw:truncate tw:hover:cursor-default;
 }
 
 .twc-badge-primary {
-  @apply tw-bg-brand-9 tw-text-brand-contrast;
+  @apply tw:bg-brand-9 tw:text-brand-contrast;
 }
 
 .twc-badge-secondary {
-  @apply tw-bg-gray-10 tw-text-gray-contrast;
+  @apply tw:bg-gray-10 tw:text-gray-contrast;
 }
 
 .twc-badge-success {
-  @apply tw-bg-success-9 tw-text-success-contrast;
+  @apply tw:bg-success-9 tw:text-success-contrast;
 }
 
 .twc-badge-danger {
-  @apply tw-bg-danger-9 tw-text-danger-contrast;
+  @apply tw:bg-danger-9 tw:text-danger-contrast;
 }
 
 .twc-badge-warning {
-  @apply tw-bg-warning-9 tw-text-warning-contrast;
+  @apply tw:bg-warning-9 tw:text-warning-contrast;
 }
 
 .twc-badge-info {
-  @apply tw-bg-info-9 tw-text-info-contrast;
+  @apply tw:bg-info-9 tw:text-info-contrast;
 }
