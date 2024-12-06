@@ -1,22 +1,22 @@
-@import './styles/colors/blue.css' layer(base);
-@import './styles/colors/gray.css' layer(base);
-@import './styles/colors/red.css' layer(base);
-@import './styles/colors/green.css' layer(base);
-@import './styles/colors/yellow.css' layer(base);
-@import './styles/colors/cyan.css' layer(base);
-@import './styles/colors/blue-dark.css' layer(base);
-@import './styles/colors/gray-dark.css' layer(base);
-@import './styles/colors/red-dark.css' layer(base);
-@import './styles/colors/green-dark.css' layer(base);
-@import './styles/colors/yellow-dark.css' layer(base);
-@import './styles/colors/cyan-dark.css' layer(base);
+@import "./styles/colors/blue.css" layer(base);
+@import "./styles/colors/gray.css" layer(base);
+@import "./styles/colors/red.css" layer(base);
+@import "./styles/colors/green.css" layer(base);
+@import "./styles/colors/yellow.css" layer(base);
+@import "./styles/colors/cyan.css" layer(base);
+@import "./styles/colors/blue-dark.css" layer(base);
+@import "./styles/colors/gray-dark.css" layer(base);
+@import "./styles/colors/red-dark.css" layer(base);
+@import "./styles/colors/green-dark.css" layer(base);
+@import "./styles/colors/yellow-dark.css" layer(base);
+@import "./styles/colors/cyan-dark.css" layer(base);
 
-@import 'tailwindcss' prefix(tw);
+@import "tailwindcss" prefix(tw);
 
-@import './styles/components/twc-button.css' layer(utilities);
-@import './styles/components/twc-heading.css' layer(utilities);
-@import './styles/components/twc-badge.css' layer(utilities);
-@import './styles/components/twc-grid.css' layer(utilities);
+@import "./styles/components/twc-button.css" layer(utilities);
+@import "./styles/components/twc-heading.css" layer(utilities);
+@import "./styles/components/twc-badge.css" layer(utilities);
+@import "./styles/components/twc-grid.css" layer(utilities);
 
 @theme {
   --color-brand-1: var(--blue-1);
